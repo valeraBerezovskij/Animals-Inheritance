@@ -17,11 +17,3 @@ void Animal::print() {
 	std::cout << "Weight: "    << weight    << std::endl;
 	std::cout << "Continent: " << continent << std::endl;
 }
-
-void Animal::eat() {
-	std::cout << "Nothing" << std::endl;
-}
-
-void Animal::sound() {
-	std::cout << "Nothing" << std::endl;
-}

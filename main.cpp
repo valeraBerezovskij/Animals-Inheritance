@@ -8,12 +8,7 @@ using namespace std;
 
 int main()
 {
-	Elephant elephant("Reggin", "Indian elephant", 6.000, "India");
-	elephant.sound();
-	Dog dog("Chelsi", "Shepherd", 14.1, "Europe");
-	dog.sound();
-	Cat cat("Toma", "none", 6.4, "Odessa Streets");
-	cat.sound();
-	Frog frog("Crazy frog", "the craziest", 0.5, "Boloto");
-	frog.sound();
+	Animal* frog = new Frog;
+	frog->eat();
+	frog->sound();
 }
